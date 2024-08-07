@@ -1,0 +1,126 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Platypi", serif;
+    font-style: italic;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('images/warwick-castle.jpg');   
+    background-size: 100%;
+    height: 500px;    
+    border-bottom: 5px solid white;
+}
+
+.hero-title {
+    font-family: "Lugrasimo", cursive;
+    font-size: 60px;
+    color: white;
+    text-shadow: 0 0 15px black;
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+.hero-tagline {
+    color: white;
+    text-shadow: 0 0 15px black;
+}
+.activities {
+    background-color: #c2e9ff;
+    margin-top: 0;
+    border-bottom: 5px solid white;
+}
+
+.activities-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    
+    
+}
+
+.section-heading {
+    font-size: 40px;
+    font-style: italic;
+    margin-top: 0;
+    text-shadow: 0 0 5px white;
+    padding-top: 25px;
+}
+
+.activity-item {
+    width: 200px;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-offset: 5px;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin: 0 auto;
+}
+
+#castle-img {
+    background-image: url("images/warwick-castle.jpg");
+    background-size: cover;
+}
+
+#castle-img:hover {
+    background-image: url("images/peacock.jpg");
+}
+
+#church-img {
+    background-image: url("images/st-marys.jpg");
+    background-size: cover;
+}
+
+#church-img:hover {
+    background-image: url("images/st-marys3.jpg");
+}
+
+#park-img {
+    background-image: url("images/st-nicholas-park1.jpg");
+    background-size: cover;
+}
+
+#park-img:hover {
+    background-image: url("images/StNicholasCafe.jpg");
+}
+
+.guide-section {
+    margin-top: 0;
+    background-color: #EEEEEE;
+}
+
+.guide-description {
+    width: 80%;
+    margin: 20px auto;
+}
+
+#scott-img {
+    width: 150px;
+    border-radius: 15px;
+    border: 2px solid white;
+}
